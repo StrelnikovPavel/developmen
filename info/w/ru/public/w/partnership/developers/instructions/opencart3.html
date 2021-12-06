@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<!-- PAW (c) Art. Lebedev Studio | http://www.artlebedev.ru/ --><html lang="ru" class="page">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="x-ua-compatible" content="IE=Edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+      <link href="/w/favicon.ico" rel="icon" type="image/x-icon">
+      <link rel="shortcut icon" href="/w/favicon.ico" type="image/x-icon">
+      <meta name="application-name" content="PayAnyWay">
+      <title>Модуль для приема оплаты для OpenCart v.3</title><style type="text/css">.hidden {display:none;}</style><link rel="stylesheet" type="text/css" href="/w/css/main.css">
+      <link rel="stylesheet" type="text/css" href="/w/css/content.css">
+      <link rel="stylesheet" type="text/css" href="/w/css/decor.css">
+      <link rel="stylesheet" type="text/css" href="/w/css/paw.min.css">
+      <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/w/css/main-ie.css" /><![endif]-->
+      <!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="/w/css/main-ie6.css" /><![endif]-->
+      <link rel="stylesheet" type="text/css" href="/w/css/modified.css">
+      <link rel="stylesheet" type="text/css" media="print" href="/w/css/print.css"><script type="text/javascript" src="/w/js/jquery.min.js"></script><script type="text/javascript" src="/w/js/jquery-migrate.min.js"></script><script type="text/javascript" src="/w/js/package.js"></script><script type="text/javascript" src="/w/js/jcommon.js"></script><script type="text/javascript" src="/w/js/payanyway.js"></script><script type="text/javascript" src="/w/js/xregexp-min.js"></script><script type="text/javascript" src="/w/js/xregexp-unicode-base.js"></script><script type="text/javascript">
+                (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-MJ8BQP4');
+            </script></head>
+   <body class="nojs">
+      <div class="header">
+         <div class="header-container"><a href="/">
+               <div class="logo"></div></a><div class="menu"><style>
+  li.menu__item
+{
+margin:0;
+}
+</style><div class="menu-icon" onclick="dropdownMenuToggle(this)">
+                  <div class="icon icon--menu"></div>
+                  <div class="icon icon--close"></div>
+               </div>
+               <ul class="menu-items">
+                  <li class="menu__item menu__item-dropdown">
+                     <div class="menu__item-dropdown-title" onclick="dropdownSubMenuToggle(this)"><span>Решения</span></div>
+                     <ul class="menu__sub-items">
+                        <li class="menu__item"><a href="https://e-com.payanyway.ru">
+                              Интернет-эквайринг
+                              </a></li>
+                        <li class="menu__item"><a href="https://sbp.payanyway.ru/">
+                              Платежи через СБП
+                              </a></li>
+                        <li class="menu__item"><a href="https://kassa.payanyway.ru/">
+                              Касса
+                              </a></li>
+                        <li class="menu__item"><a href="https://self.payanyway.ru/">
+                              Самозанятым
+                              </a></li>
+                        <li class="menu__item"><a href="https://marketplace.payanyway.ru/">
+                              Маркетплейсам
+                              </a></li>
+                        <li class="menu__item"><a href="https://apisolution.payanyway.ru/">
+                              API Solution
+                              </a></li>
+                     </ul>
+                  </li>
+                  <li class="menu__item"><a href="/info/w/ru/public/w/partnership/merchants/tariffs.html">Тарифы</a></li>
+                  <li class="menu__item"><a href="/info/w/ru/public/w/partnership/developers/cms.html">Разработчикам</a></li>
+                  <li class="menu__item"><a href="/info/w/ru/public/w/about.html">Контакты</a></li>
+                  <li class="menu__item"><a href="/info/w/ru/public/w/partnership/demo/var1.html">Демо</a></li>
+                  <div class="buttons-block--mobile"><a target="_blank" class="button button_default" href="https://www.payanyway.ru/backoffice/auth/register">Регистрация</a><a target="_blank" class="button" href="https://www.payanyway.ru/backoffice/auth/signin">Войти в кабинет</a></div>
+               </ul>
+            </div>
+            <div class="buttons-block"><a class="button" target="_blank" href="https://www.payanyway.ru/backoffice/auth/signin">Войти</a><a class="button button_default" target="_blank" href="https://www.payanyway.ru/backoffice/auth/register">Подключить</a></div>
+         </div>
+      </div>
+      <div id="measurer"></div>
+      <div id="outer" class="for-partners">
+         <div id="layout" class="cleared">
+            <div class="cols cleared">
+               <h1 class="title">Модуль для приема оплаты для OpenCart v.3: инструкция по подключению</h1>
+               <ul class="submenu">
+                  <li class="submenu_item"><a class="submenu-link" href="/info/w/ru/public/w/partnership/developers/cms.html">Модули CMS</a></li>
+                  <li class="submenu_item"><a class="submenu-link" href="/info/w/ru/public/w/partnership/developers/assistant.html">Платёжная форма</a></li>
+                  <li class="submenu_item"><a class="submenu-link" href="/info/w/ru/public/w/partnership/developers/sdk.html">
+                        		SDK
+                        	</a></li>
+                  <li class="submenu_item"><a class="submenu-link" href="/info/w/ru/public/w/partnership/developers/merchant-api.html">
+                        		Merchant API
+                        	</a></li>
+                  <li class="submenu_item"><a class="submenu-link" href="/info/w/ru/public/w/partnership/developers/pdf-digital-signature.htm">Проверка ЭЦП</a></li>
+                  <li class="submenu_item"><a class="submenu-link" href="/info/w/ru/public/w/partnership/developers/54fz.html">54-ФЗ</a></li>
+                  <li class="submenu_item"><a class="submenu-link" href="/info/w/ru/public/w/partnership/developers/applepay.html">Apple Pay</a></li>
+                  <li class="submenu_item"><a class="submenu-link" href="/info/w/ru/public/w/partnership/developers/googlepay.html">Google Pay</a></li>
+               </ul>
+               <div class="col col75">
+                  <div class="col_inner">
+                     <h2>Инструкция по настройке счета</h2>
+                     <p>1. <a href="https://payanyway.ru/partnerRegistration.htm">Зарегистрируйтесь</a> в платёжной системе PayAnyWay и заполните все необходимые данные. Дождитесь проверки аккаунта и создайте расширенный счет.
+                     </p>
+                     <p>2. Заполните настройки расширенного счета (раздел «Мой счет» - «Управление счетами» - «Редактировать счет»):</p>
+                     <ul class="styled">
+                        <li>«Тестовый режим»: Нет</li>
+                        <li>«Check URL»: заполнять не нужно</li>
+                        <li>«Pay URL»: <b>http://адрес_вашего_сайта/index.php?route=extension/payment/payanyway/callback</b></li>
+                        <li>«HTTP метод»: <b>GET</b></li>
+                        <li>«Можно переопределять настройки в url»: Да</li>
+                        <li>«Подпись формы оплаты обязательна»: Да</li>
+                        <li>«Код проверки целостности данных»: ваш_код (произвольный набор символов)</li>
+                        <li>«Success URL»: заполнять не нужно</li>
+                        <li>«Fail URL»: URL заполнять не нужно</li>
+                        <li>«InProgress URL»: Необязательное поле. URL страницы магазина, куда должен попасть покупатель после успешного запроса на авторизацию
+                           средств, до подтверждения списания и зачисления средств. Поддерживается ограниченным количеством методов оплаты. Переход пользователя
+                           произойдет независимо от получения магазином средств и отчета о проведенной оплате.
+                        </li>
+                        <li>«Return URL»: Необязательное поле. URL страницы магазина, куда должен вернуться покупатель при добровольном отказе от оплаты.
+                           Отчет об оплате в этом случае магазину не отсылается.
+                        </li>
+                     </ul>
+                     <blockquote>
+                        <p><strong>Внимание!</strong> Для кириллического домена PayURL должен быть указан в кодировке <a href="https://2ip.ru/punycode/">Punycode</a>.
+                        </p>
+                     </blockquote>
+                     <h2>Установка и настройка модуля оплаты</h2>
+                     <p>1. Скачайте <a href="https://www.moneta.ru/info/public/cms/opencart_v3.zip" target="_blank">архив модуля</a>, переименуйте в opencart_3_payanyway_2.ocmod.zip и установите модуль.
+                     </p>
+                     <p>2. В панели управления интернет-магазином выберите раздел «Дополнения» — «Оплата».</p>
+                     <p>3. В списке доступных способов оплаты найдите «PayAnyWay» и нажмите «Активировать». После чего перейдите к настройке, нажав
+                        «Редактировать».
+                     </p>
+                     <p>4. Отредактируйте настройки способа оплаты, указав соответствующие значения:</p>
+                     <ul class="styled">
+                        <li>«Account ID»: Номер расширенного счета в системе moneta.ru</li>
+                        <li>«Account Code»: Код проверки целостности данных, указанный в настройках расширенного счета</li>
+                        <li>«Test Mode»: Отключено</li>
+                        <li>«Total»: Пороговая сумма, от которой покупатель сможет выбрать PayAnyWay</li>
+                        <li>«Order Status»: Processing</li>
+                        <li>«Geo Zone»: All zones</li>
+                        <li>«Status»: Enabled</li>
+                     </ul>
+                     <p>Нажмите «Save» (сохранить).</p>
+                     <p>5. Для фискализации чеков по 54-ФЗ настройте вашу кассу в сервисе <a href="https://kassa.payanyway.ru" target="_blank">https://kassa.payanyway.ru</a>, в настройках Вашего расширенного счёта в Монета.ру установите Pay URL: https://kassa.payanyway.ru/index.php?do=invoicepayurl,
+                        а в настройках кассы в kassa.payanyway.ru пропишите ссылку на Pay URL Вашего интернет-магазина. В этом случае будет пробиваться
+                        чек по 54-ФЗ через сервис kassa.payanyway.ru, а запрос на Pay URL магазина будет проходить транзитом через сервис kassa.payanyway.ru.
+                     </p>
+                     <p>Не забудьте прислать подписанное Заявление о присоединении к оферте, которое вы можете скачать в Личном кабинете системы moneta.ru</p>
+                  </div>
+               </div>
+               <div class="col col25"><style>
+@media (max-width:993px){
+.sidebanner .col_inner{
+padding-left:10px;padding-right:10px;}
+
+}
+@media (max-width:993px){
+.sidebanner{
+float:none;
+margin:0 auto;}
+.sidebanner .col_inner{
+width:100%;
+}
+
+}
+</style><div class="sidebanner">
+                     <div class="col_inner"><a class="sidebanner_link no_visited" href="https://www.payanyway.ru/backoffice/auth/register?lang=ru" target="_blank"><span class="i"><span class="icon icon-contract"></span></span>Подключить</a><p class="sidebanner_text">Заполните форму и начните принимать платежи</p>
+                        <p class="sidebanner_text">Если не нашли <a class="sidebanner_link no_visited" href="https://payanyway.ru/info/public/w/partnership/developers/cms.html">в списке</a> нужный модуль CMS, напишите на <a class="sidebanner_link no_visited" href="mailto:tech@payanyway.ru?subject=%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9 %D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C %D0%B4%D0%BB%D1%8F CMS">tech@payanyway.ru</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer" id="footer">
+         <div class="footer__container">
+            <div class="footer__main-block">
+               <div class="footer__links-block">
+                  <div class="footer__links-column">
+                     <div class="footer__links-title">
+                        Решения
+                        
+                     </div>
+                     <div class="footer__links"><a class="link" href="https://e-com.payanyway.ru">Интернет-эквайринг</a><a class="link" href="https://sbp.payanyway.ru/">Платежи через СБП</a><a class="link" href="https://kassa.payanyway.ru/">Касса</a><a class="link" href="https://self.payanyway.ru/">Самозанятым</a><a class="link" href="https://marketplace.payanyway.ru/">Маркетплейсам</a><a class="link" href="https://apisolution.payanyway.ru/">API Solution</a><a class="link link-wrap" target="_blank" href="https://payanyway.ru/backoffice/auth/register?resident=false">Регистрация нерезидентов</a></div>
+                  </div>
+                  <div class="footer__links-column">
+                     <div class="footer__links-title">
+                        О компании
+                        
+                     </div>
+                     <div class="footer__links"><a class="link" href="https://payanyway.ru/info/public/w/about.html">Контакты</a><a class="link" href="/info/w/ru/public/w/partnership/merchants/tariffs.html">Тарифы</a><a class="link" href="/info/w/ru/public/w/payment-methods/index.html">Способы
+                           оплаты</a><a class="link" href="/info/w/ru/public/w/partnership/howto/terms.html">Правила и
+                           условия</a><a class="link" href="/info/w/ru/public/w/customers/security.html">Защита
+                           данных</a><a class="link" href="/news.htm">Новости</a><a class="link" href="/info/w/ru/public/w/partnership/merchants/usefulinfo.html">Статьи</a></div>
+                  </div>
+                  <div class="footer__links-column">
+                     <div class="footer__links-title">Разработчикам</div>
+                     <div class="footer__links"><a class="link" href="/info/w/ru/public/w/partnership/developers/cms.html">Решения
+                           для
+                           CMS</a><a class="link" href="/info/w/ru/public/w/partnership/developers/assistant.html">Платёжная
+                           форма</a><a class="link" href="/info/w/ru/public/w/partnership/developers/sdk.html">SDK</a><a class="link" href="/info/w/ru/public/w/partnership/developers/merchant-api.html">Merchant
+                           API</a><a class="link" href="/info/w/ru/public/w/partnership/developers/pdf-digital-signature.htm">Проверка
+                           ЭЦП</a><a class="link" href="/info/w/ru/public/w/partnership/developers/54fz.html">54-ФЗ</a><a class="link" href="/info/w/ru/public/w/partnership/developers/applepay.html">Apple
+                           Pay</a><a class="link" href="https://www.payanyway.ru/info/public/w/partnership/developers/googlepay.html">Google
+                           Pay</a></div>
+                  </div>
+                  <div class="footer__links-column">
+                     <div class="footer__links-title">Помощь</div>
+                     <div class="footer__links"><a class="link" target="_blank" href="https://www.payanyway.ru/backoffice/auth/support">Служба
+                           поддержки</a><a class="link" href="/info/w/ru/public/w/partnership/faq.html">Вопросы
+                           и ответы</a><a class="link" href="/info/w/ru/public/w/partnership/howto/index.html">Как
+                           подключить</a><a class="link" href="/info/w/ru/public/w/partnership/demo/var1.html">Демо</a></div>
+                  </div>
+               </div>
+               <div class="footer__contact-block">
+                  <div class="footer__contact-wrapper">
+                     <div class="footer__contact-title">
+                        Интернет-проектам:
+                        
+                     </div>
+                     <div class="footer__contact--phone"><a href="tel:+74956465848" class="link--tel">
+                           +7 495 646-58-48
+                           </a></div>
+                     <div class="footer__contact--email"><a href="mailto:com@payanyway.ru">
+                           com@payanyway.ru
+                           </a></div>
+                  </div>
+                  <div class="footer__contact-wrapper">
+                     <div class="footer__contact-title">
+                        Плательщикам и самозанятым:
+                        
+                     </div>
+                     <div class="footer__contact--phone"><a href="tel:+74957434985" class="link--tel">
+                           +7 495 743-49-85
+                           </a></div>
+                     <div class="footer__contact--email"><a href="mailto:help@payanyway.ru">
+                           help@payanyway.ru
+                           </a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__bottom-block">
+               <div class="footer__social"><a class="icon icon--facebook" href="https://www.facebook.com/PayAnyWay/" target="_blank"></a><a class="icon icon--insta" href="https://www.instagram.com/payanyway/" target="_blank"></a></div>
+               <div class="footer__lang"><a href="/locale.htm?moneta.locale=en&amp;redirect=/info/w/ru/public/w/partnership/developers/instructions/opencart3.html%3f_=w3062632a">English</a></div>
+               <div class="footer__lang footer__lang--mobile"><a href="/locale.htm?moneta.locale=en&amp;redirect=/info/w/ru/public/w/partnership/developers/instructions/opencart3.html%3f_=w3062632a">EN</a></div>
+               <div class="footer__copy">&#169; 2005&#8212;2021 <a href="http://www.moneta.ru" class="link" target="_blank">НКО &#171;МОНЕТА&#187; (ООО)</a></div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

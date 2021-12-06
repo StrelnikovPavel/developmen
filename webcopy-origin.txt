@@ -1,0 +1,604 @@
+Uri: https://koptelnya.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/favicon.100.ico
+File Name: C:\Downloaded Web Sites\koptelnya.ru\favicon.100.ico
+Content Type: image/x-icon
+
+Uri: https://koptelnya.ru/favicon.100.svg
+File Name: C:\Downloaded Web Sites\koptelnya.ru\favicon.100.svg
+Content Type: image/svg+xml
+
+Uri: https://koptelnya.ru/apple-touch-icon.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/manifest.100.webmanifest
+File Name: C:\Downloaded Web Sites\koptelnya.ru\manifest.100.webmanifest
+Content Type: application/manifest+json
+
+Uri: https://jetdev.io/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-1.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/_nuxt/e40e25f.js
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\e40e25f.js
+Content Type: application/javascript
+
+Uri: https://koptelnya.ru/_nuxt/147ef21.js
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\147ef21.js
+Content Type: application/javascript
+
+Uri: https://koptelnya.ru/_nuxt/css/a504d9d.css
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\css\a504d9d.css
+Content Type: text/css
+
+Uri: https://koptelnya.ru/_nuxt/a0f8dd6.js
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\a0f8dd6.js
+Content Type: application/javascript
+
+Uri: https://koptelnya.ru/_nuxt/a12a3dd.js
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\a12a3dd.js
+Content Type: application/javascript
+
+Uri: https://koptelnya.ru/_nuxt/fonts/GothamPro.ddc5907.woff2
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\fonts\GothamPro.ddc5907.woff2
+Content Type: font/woff2
+
+Uri: https://koptelnya.ru/_nuxt/fonts/GothamPro-Medium.261d5b7.woff2
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\fonts\GothamPro-Medium.261d5b7.woff2
+Content Type: font/woff2
+
+Uri: https://koptelnya.ru/_nuxt/fonts/GothamPro-Bold.f347e36.woff2
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\fonts\GothamPro-Bold.f347e36.woff2
+Content Type: font/woff2
+
+Uri: https://koptelnya.ru/_nuxt/fonts/NotoSans-Bold.cbcbb9a.woff2
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\fonts\NotoSans-Bold.cbcbb9a.woff2
+Content Type: font/woff2
+
+Uri: https://koptelnya.ru/_nuxt/fonts/NotoSans-Regular.c56fef0.woff2
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\fonts\NotoSans-Regular.c56fef0.woff2
+Content Type: font/woff2
+
+Uri: https://koptelnya.ru/brief
+File Name: C:\Downloaded Web Sites\koptelnya.ru\brief.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/services
+File Name: C:\Downloaded Web Sites\koptelnya.ru\services.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/about
+File Name: C:\Downloaded Web Sites\koptelnya.ru\about.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/jobs
+File Name: C:\Downloaded Web Sites\koptelnya.ru\jobs.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/contact
+File Name: C:\Downloaded Web Sites\koptelnya.ru\contact.html
+Content Type: text/html
+
+Uri: https://twitter.com/AndreyKoptelnya
+File Name: C:\Downloaded Web Sites\koptelnya.ru\AndreyKoptelnya.html
+Content Type: text/html
+
+Uri: https://www.googletagmanager.com/ns.html?id=GTM-KMTBBG7&
+File Name: C:\Downloaded Web Sites\koptelnya.ru\ns.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/_nuxt/fonts/GothamPro.774ec39.woff
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\fonts\GothamPro.774ec39.woff
+Content Type: font/woff
+
+Uri: https://koptelnya.ru/_nuxt/fonts/GothamPro-Medium.48d4d04.woff
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\fonts\GothamPro-Medium.48d4d04.woff
+Content Type: font/woff
+
+Uri: https://koptelnya.ru/_nuxt/fonts/GothamPro-Bold.2c6f2ca.woff
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\fonts\GothamPro-Bold.2c6f2ca.woff
+Content Type: font/woff
+
+Uri: https://koptelnya.ru/_nuxt/fonts/NotoSans-Bold.6a675e7.woff
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\fonts\NotoSans-Bold.6a675e7.woff
+Content Type: font/woff
+
+Uri: https://koptelnya.ru/_nuxt/fonts/NotoSans-Regular.433eb47.woff
+File Name: C:\Downloaded Web Sites\koptelnya.ru\_nuxt\fonts\NotoSans-Regular.433eb47.woff
+Content Type: font/woff
+
+Uri: https://koptelnya.ru/svg/share.svg
+File Name: C:\Downloaded Web Sites\koptelnya.ru\svg\share.svg
+Content Type: image/svg+xml
+
+Uri: https://jetdev.io/brief
+File Name: C:\Downloaded Web Sites\koptelnya.ru\brief-1.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/files/privacy-policy.pdf
+File Name: C:\Downloaded Web Sites\koptelnya.ru\files\privacy-policy.pdf
+Content Type: application/pdf
+
+Uri: https://jetdev.io/works
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works-1.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/italian-market
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\italian-market.html
+Content Type: text/html
+
+Uri: https://breezzly.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-2.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/breezzly
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\breezzly.html
+Content Type: text/html
+
+Uri: https://life.akbars.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-3.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/life-akbars
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\life-akbars.html
+Content Type: text/html
+
+Uri: https://godesign.school/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-4.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/godesign
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\godesign.html
+Content Type: text/html
+
+Uri: https://tehnoteh.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-5.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/tehnoteh
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\tehnoteh.html
+Content Type: text/html
+
+Uri: https://kanclerpark.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-6.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/kanclerpark
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\kanclerpark.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/travel-line
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\travel-line.html
+Content Type: text/html
+
+Uri: https://ux-journal.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-8.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/ux-journal
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\ux-journal.html
+Content Type: text/html
+
+Uri: https://www.mariholod.com/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-9.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/mariholod
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\mariholod.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/niksen-school
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\niksen-school.html
+Content Type: text/html
+
+Uri: https://h2u.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-10.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/h2-u
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\h2-u.html
+Content Type: text/html
+
+Uri: https://m2lab.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-11.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/m2-lab
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\m2-lab.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/godesign-start
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\godesign-start.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/norvikbank
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\norvikbank.html
+Content Type: text/html
+
+Uri: https://breezzly.ru/testimonials
+File Name: C:\Downloaded Web Sites\koptelnya.ru\testimonials.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/works/reviews-breezzly
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\reviews-breezzly.html
+Content Type: text/html
+
+Uri: https://mishaexpo.com/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-12.htm
+Content Type: text/html
+
+Uri: https://alinamalii.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-13.htm
+Content Type: text/html
+
+Uri: http://metrog.co.kr/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-14.htm
+Content Type: text/html
+
+Uri: https://alinamalii.ru/ispolnyay-mechty
+File Name: C:\Downloaded Web Sites\koptelnya.ru\ispolnyay-mechty.html
+Content Type: text/html
+
+Uri: https://мойбизнес12.рф/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-15.htm
+Content Type: text/html
+
+Uri: https://semenagost.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-16.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/jobs/speczialist-otdela-prodazh-so-znaniem-anglijskogo-yazyka
+File Name: C:\Downloaded Web Sites\koptelnya.ru\jobs\speczialist-otdela-prodazh-so-znaniem-anglijskogo-yazyka.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/jobs/frontend-razrabotchik-vue-react
+File Name: C:\Downloaded Web Sites\koptelnya.ru\jobs\frontend-razrabotchik-vue-react.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/jobs/mobilnye-razrabotchiki-flutter
+File Name: C:\Downloaded Web Sites\koptelnya.ru\jobs\mobilnye-razrabotchiki-flutter.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/jobs/web-razrabotchik-frontend-backend
+File Name: C:\Downloaded Web Sites\koptelnya.ru\jobs\web-razrabotchik-frontend-backend.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/jobs/veb-dizajner-ui-ux
+File Name: C:\Downloaded Web Sites\koptelnya.ru\jobs\veb-dizajner-ui-ux.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/jobs/speczialist-seo
+File Name: C:\Downloaded Web Sites\koptelnya.ru\jobs\speczialist-seo.html
+Content Type: text/html
+
+Uri: https://jetdev.io/services
+File Name: C:\Downloaded Web Sites\koptelnya.ru\services-1.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/services/razrabotka-korporativnogo-sajta
+File Name: C:\Downloaded Web Sites\koptelnya.ru\services\razrabotka-korporativnogo-sajta.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/services/razrabotka-internet-magazina
+File Name: C:\Downloaded Web Sites\koptelnya.ru\services\razrabotka-internet-magazina.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/services/razrabotka-landing-page
+File Name: C:\Downloaded Web Sites\koptelnya.ru\services\razrabotka-landing-page.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/services/uslugi-dlya-digital-agentstv
+File Name: C:\Downloaded Web Sites\koptelnya.ru\services\uslugi-dlya-digital-agentstv.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/services/tehnicheskoe-soprovozhdenie
+File Name: C:\Downloaded Web Sites\koptelnya.ru\services\tehnicheskoe-soprovozhdenie.html
+Content Type: text/html
+
+Uri: https://jetdev.io/about
+File Name: C:\Downloaded Web Sites\koptelnya.ru\about-1.html
+Content Type: text/html
+
+Uri: https://dribbble.com/NewWingsAsya
+File Name: C:\Downloaded Web Sites\koptelnya.ru\NewWingsAsya.html
+Content Type: text/html
+
+Uri: https://www.instagram.com/nastyniksen/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\nastyniksen\index.htm
+Content Type: text/html
+
+Uri: https://ezhmarketing.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-17.htm
+Content Type: text/html
+
+Uri: https://makarov.digital/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-18.htm
+Content Type: text/html
+
+Uri: https://nikita-vanyasin.github.io/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-19.htm
+Content Type: text/html
+
+Uri: https://target-g.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-20.htm
+Content Type: text/html
+
+Uri: https://www.travelline.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-21.htm
+Content Type: text/html
+
+Uri: https://akbars.digital/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-22.htm
+Content Type: text/html
+
+Uri: https://citronium.com/ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\ru\index.htm
+Content Type: text/html
+
+Uri: https://italianmarket.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-23.htm
+Content Type: text/html
+
+Uri: https://niksen.school/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-24.htm
+Content Type: text/html
+
+Uri: http://intecron.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-25.htm
+Content Type: text/html
+
+Uri: https://everest.cx/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-26.htm
+Content Type: text/html
+
+Uri: https://collegebeast.net/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-27.htm
+Content Type: text/html
+
+Uri: https://jetdev.io/jobs
+File Name: C:\Downloaded Web Sites\koptelnya.ru\jobs-1.html
+Content Type: text/html
+
+Uri: https://jetdev.io/contact
+File Name: C:\Downloaded Web Sites\koptelnya.ru\contact-1.html
+Content Type: text/html
+
+Uri: https://polyfill.io/v3/polyfill.min.js?features=requestIdleCallback
+File Name: C:\Downloaded Web Sites\koptelnya.ru\v3\polyfill.min.js
+Content Type: text/javascript
+
+Uri: https://vc.ru/seo/142788-seo-driven-development-kak-razrabotat-sayt-srazu-s-uchetom-seo
+File Name: C:\Downloaded Web Sites\koptelnya.ru\seo\142788-seo-driven-development-kak-razrabotat-sayt-srazu-s-uchetom-seo.html
+Content Type: text/html
+
+Uri: https://vc.ru/seo/131493-novyy-faktor-ranzhirovaniya-google-page-experience-kak-podgotovitsya-i-pochemu-eto-vazhno-delat-uzhe-seychas
+File Name: C:\Downloaded Web Sites\koptelnya.ru\seo\131493-novyy-faktor-ranzhirovaniya-google-page-experience-kak-podgotovitsya-i-pochemu-eto-vazhno-delat-uzhe-seychas.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/thumbnail_3_Frame_1681_03b768cfd1.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_3_Frame_1681_03b768cfd1.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/uploads/thumbnail_uxjournal_4ee88fe547.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_uxjournal_4ee88fe547.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/uploads/thumbnail_breezzly_db68038859.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_breezzly_db68038859.png
+Content Type: image/png
+
+Uri: https://jetdev.io/works/breezzly
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\breezzly-1.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/thumbnail_image_processing20200701_26217_e7p185_5cb23fef6c.jpeg
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_image_processing20200701_26217_e7p185_5cb23fef6c.jpeg
+Content Type: image/jpeg
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Group_3_0546f4bafd.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Group_3_0546f4bafd.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Tryufel_2024ead09d.jpg
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Tryufel_2024ead09d.jpg
+Content Type: image/jpeg
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Frame_1700_a30e0d0856.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Frame_1700_a30e0d0856.png
+Content Type: image/png
+
+Uri: https://jetdev.io/works/godesign
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\godesign-1.html
+Content Type: text/html
+
+Uri: https://www.institutps.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-28.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/thumbnail_artboard_1_copy_3_8415a8382e.jpeg
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_artboard_1_copy_3_8415a8382e.jpeg
+Content Type: image/jpeg
+
+Uri: https://koptelnya.ru/uploads/thumbnail_travelline_f3611a371c.jpeg
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_travelline_f3611a371c.jpeg
+Content Type: image/jpeg
+
+Uri: https://jetdev.io/works/tehnoteh
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\tehnoteh-1.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/eji_18d2025ae2.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\eji_18d2025ae2.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Frame_21_3ca72f1ad7.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Frame_21_3ca72f1ad7.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/uploads/thumbnail_godesign_e8a52614fe.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_godesign_e8a52614fe.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/uploads/thumbnail_kancler_preview_2799fc9c25.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_kancler_preview_2799fc9c25.png
+Content Type: image/png
+
+Uri: https://jetdev.io/works/kanclerpark
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\kanclerpark-1.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Frame_22_fe76bbd64b.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Frame_22_fe76bbd64b.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Group_39_8cca690d16.jpg
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Group_39_8cca690d16.jpg
+Content Type: image/jpeg
+
+Uri: https://start1.travelline-web.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-7.htm
+Content Type: text/html
+
+Uri: https://jetdev.io/works/travel-line
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\travel-line-1.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Frame_11_27968f4180.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Frame_11_27968f4180.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Group_20_1_001a7eee61.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Group_20_1_001a7eee61.png
+Content Type: image/png
+
+Uri: https://jetdev.io/works/ux-journal
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\ux-journal-1.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/thumbnail_artboard_1_4a3abf6600.jpeg
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_artboard_1_4a3abf6600.jpeg
+Content Type: image/jpeg
+
+Uri: https://koptelnya.ru/uploads/thumbnail_m2lab_1c991d2379.jpeg
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_m2lab_1c991d2379.jpeg
+Content Type: image/jpeg
+
+Uri: https://jetdev.io/works/mariholod
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\mariholod-1.html
+Content Type: text/html
+
+Uri: https://www.remove.bg/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-29.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Frame_24_67d769ea89.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Frame_24_67d769ea89.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/uploads/thumbnail_tehnoteh_preview_ae992ec237.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_tehnoteh_preview_ae992ec237.png
+Content Type: image/png
+
+Uri: https://tilda.education/articles-jobs-to-be-done
+File Name: C:\Downloaded Web Sites\koptelnya.ru\articles-jobs-to-be-done.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/thumbnail_u_Frame_1685_fb44023248.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_u_Frame_1685_fb44023248.png
+Content Type: image/png
+
+Uri: https://jetdev.io/works/h2-u
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\h2-u-1.html
+Content Type: text/html
+
+Uri: https://www.opencart.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-31.htm
+Content Type: text/html
+
+Uri: https://payanyway.ru/info/w/ru/public/w/partnership/developers/instructions/opencart3.html
+File Name: C:\Downloaded Web Sites\koptelnya.ru\info\w\ru\public\w\partnership\developers\instructions\opencart3.html
+Content Type: text/html
+
+Uri: https://cdek.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-32.htm
+Content Type: text/html
+
+Uri: http://cdek.opencart.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-33.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Frame_25_3311a6bf05.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Frame_25_3311a6bf05.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Frame_26_1f63c276bf.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Frame_26_1f63c276bf.png
+Content Type: image/png
+
+Uri: https://jetdev.io/works/m2-lab
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\m2-lab-1.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Frame_14_3c56eb7b6c.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Frame_14_3c56eb7b6c.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/uploads/thumbnail_norvikbank_preview_b94d7ea67d.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_norvikbank_preview_b94d7ea67d.png
+Content Type: image/png
+
+Uri: https://godesign.school/start/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\start\index.htm
+Content Type: text/html
+
+Uri: https://jetdev.io/works/godesign-start
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\godesign-start-1.html
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/thumbnail_422cd02fba9d048d4af562bb2ece5542_4f78fb6f62.jpeg
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_422cd02fba9d048d4af562bb2ece5542_4f78fb6f62.jpeg
+Content Type: image/jpeg
+
+Uri: https://jetdev.io/works/norvikbank
+File Name: C:\Downloaded Web Sites\koptelnya.ru\works\norvikbank-1.html
+Content Type: text/html
+
+Uri: https://norvikbank.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-34.htm
+Content Type: text/html
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Frame_23_56d473d6c8.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Frame_23_56d473d6c8.png
+Content Type: image/png
+
+Uri: https://koptelnya.ru/uploads/thumbnail_Group_1_152497f0b6.png
+File Name: C:\Downloaded Web Sites\koptelnya.ru\uploads\thumbnail_Group_1_152497f0b6.png
+Content Type: image/png
+
+Uri: https://docs.google.com/document/d/1WfLluUe11Ym58n4ts-yhsPasxFDvL6a9NprxqJVBwYw/edit
+File Name: C:\Downloaded Web Sites\koptelnya.ru\document\d\1WfLluUe11Ym58n4ts-yhsPasxFDvL6a9NprxqJVBwYw\edit.html
+Content Type: text/html
+
+Uri: https://norvikbank.ru/yoshkar-ola/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\yoshkar-ola\index.htm
+Content Type: text/html
+
+Uri: https://jetdev.io/404
+File Name: C:\Downloaded Web Sites\koptelnya.ru\404.html
+Content Type: text/html
+
+Uri: https://yoso.ru/
+File Name: C:\Downloaded Web Sites\koptelnya.ru\index-30.htm
+Content Type: text/html
+
+Uri: https://www.payanyway.ru/info/w/ru/public/welcome.htm
+File Name: C:\Downloaded Web Sites\koptelnya.ru\info\w\ru\public\welcome.htm
+Content Type: text/html
+

@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<meta name="yandex-verification" content="3c9cf96a0c99d1d1" />
+    <meta name="yandex-verification" content="b32fa0591b95c433"/>
+    <meta name="cmsmagazine" content="8c69721e4e6a8fb00e32948bd0c1a352"/>
+    <link rel="shortcut icon" href="/local/templates/everest_new/favicon.ico?2" type="image/x-icon">
+
+            <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <meta name="description" content="Оказываем услуги по сложной разработке интерфейсов для сайтов и мобильных приложений. Наш телефон: +7 495 414-14-44" />
+<script type="text/javascript" data-skip-moving="true">(function(w, d) {var v = w.frameCacheVars = {'CACHE_MODE':'HTMLCACHE','storageBlocks':[],'dynamicBlocks':{'LkGdQn':'feef556b6660','XEVOpk':'b0912d465115','g8taYv':'6d6d31a95aae'},'AUTO_UPDATE':true,'AUTO_UPDATE_TTL':'120'};var inv = false;if (v.AUTO_UPDATE === false){if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0){var lm = Date.parse(d.lastModified);if (!isNaN(lm)){var td = new Date().getTime();if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td){w.frameRequestStart = false;w.preventAutoUpdate = true;return;}inv = true;}}else{w.frameRequestStart = false;w.preventAutoUpdate = true;return;}}var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);if (!r) { return; }w.frameRequestStart = true;var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime();var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");var u = l.protocol + "//" + l.host + l.pathname + q;r.open("GET", u, true);r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");r.setRequestHeader("BX-CACHE-MODE", m);r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : "");if (inv){r.setRequestHeader("BX-INVALIDATE-CACHE", "Y");}try { r.setRequestHeader("BX-REF", d.referrer || "");} catch(e) {}if (m === "APPCACHE"){r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");}r.onreadystatechange = function() {if (r.readyState != 4) { return; }var a = r.getResponseHeader("BX-RAND");var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)){var f = {error:true, reason:a!=x?"bad_rand":"bad_status", url:u, xhr:r, status:r.status};if (w.BX && w.BX.ready){BX.ready(function() {setTimeout(function(){BX.onCustomEvent("onFrameDataRequestFail", [f]);}, 0);});}else{w.frameRequestFail = f;}return;}if (b){b.onFrameDataReceived(r.responseText);if (!w.frameUpdateInvoked){b.update(false);}w.frameUpdateInvoked = true;}else{w.frameDataString = r.responseText;}};r.send();})(window, document);</script>
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
+
+
+<link href="/bitrix/cache/css/s1/everest_new/kernel_main/kernel_main_v1.css?16336434473040" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/everest_new/template_a7973356bd54b94461943430a2e98d8c/template_a7973356bd54b94461943430a2e98d8c_v1.css?1638453884225872" type="text/css"  data-template-style="true" rel="stylesheet" />
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.3/dist/jquery.fancybox.min.css"/>
+        <title>UX-студия Everest</title>
+    <!-- Facebook Pixel Code -->
+        <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=2503303296667105&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script data-skip-moving=true async src="https://www.googletagmanager.com/gtag/js?id=UA-117285703-1"></script>
+<script data-skip-moving=true>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-117285703-1');
+</script>
+<!-- Yandex.Metrika counter -->
+<script data-skip-moving=true type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(38080770, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/38080770" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+<body>
+<div class="body-wrap">
+    
+    <div class="content">
+        <div class="header  container" data-color>
+                        <div class="header__logo">
+                <a href="/" class="header__logo-link">Everest</a>
+            </div>
+            <div class="header__nav">
+                <div id="bxdynamic_LkGdQn_start" style="display:none"></div>
+	<ul class="header__menu">
+		
+				
+			<li>
+				<a href="/portfolio/">
+					Портфолио				</a>
+			</li>
+		
+				
+			<li>
+				<a href="/agency/">
+					Студия				</a>
+			</li>
+		
+				
+			<li>
+				<a href="/contacts/">
+					Контакты				</a>
+			</li>
+		
+		        <li class="blue"><a href="/brief">Заполнить бриф</a></li>
+        <li class="showreel">
+            <a location="/showreel/" href="//player.vimeo.com/video/286412611?autoplay=1&loop=1&byline=0&title=0" id="showreel">
+                <!--              <img src="../../dist/images/icons/play-showreel.svg" alt="">-->
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 286.054 286.054" style="enable-background:new 0 0 286.054 286.054;"
+                     xml:space="preserve">
+<g>
+    <path d="M143.027,0.004C64.04,0.004,0,64.036,0,143.022c0,78.996,64.04,143.027,143.027,143.027
+		s143.027-64.031,143.027-143.027C286.054,64.045,222.014,0.004,143.027,0.004z M143.027,259.232
+		c-64.183,0-116.209-52.026-116.209-116.209s52.026-116.21,116.209-116.21s116.209,52.026,116.209,116.209
+		S207.21,259.232,143.027,259.232z M200.863,136.434l-81.856-45.581c-5.962-3.638-11.827-0.706-11.827,6.526v91.367
+		c0,7.223,5.864,10.173,11.827,6.517l81.722-44.91C208.31,146.035,205.548,139.071,200.863,136.434z"/>
+</g>
+</svg>
+                <span>Шоурил</span>
+            </a>
+        </li>
+	</ul>
+    <a href="/" class="header__burger"><span>menu</span></a>
+
+<div id="bxdynamic_LkGdQn_end" style="display:none"></div>            </div>
+            <div class="header__drop header__drop-v2">
+                <div class="row-fluid header__drop-v2-scroll">
+                    <div class="header__drop-v2-wrap">
+                        <div class="header__drop-v2-nav">
+                            <div id="bxdynamic_XEVOpk_start" style="display:none"></div>
+    <div class="header__drop-v2-nav-bold">
+		
+		
+        <div class="header__drop-v2-nav-item">
+            <a href="/portfolio/">
+                Портфолио            </a>
+        </div>
+		
+		
+        <div class="header__drop-v2-nav-item">
+            <a href="/agency/">
+                Студия            </a>
+        </div>
+		
+		
+        <div class="header__drop-v2-nav-item">
+            <a href="/blog/">
+                Блог            </a>
+        </div>
+		
+		
+        <div class="header__drop-v2-nav-item">
+            <a href="/contacts/">
+                Контакты            </a>
+        </div>
+		
+		
+</div>
+
+<div id="bxdynamic_XEVOpk_end" style="display:none"></div>
+                            <div id="bxdynamic_g8taYv_start" style="display:none"></div>
+    <div class="header__drop-v2-nav-regular">
+		
+		
+        <div class="header__drop-v2-nav-item">
+            <a href="/design_support/">
+                Дизайн поддержка            </a>
+        </div>
+		
+		
+        <div class="header__drop-v2-nav-item">
+            <a href="/vacancy/">
+                Вакансии            </a>
+        </div>
+		
+		
+        
+</div>
+
+<div id="bxdynamic_g8taYv_end" style="display:none"></div>
+                        </div>
+                        <div class="header__drop-v2-contacts">
+                            <div class="header__drop-v2-contacts-item">
+                                <a href="/brief/" class="header__drop-btn" data-name="Заполнить бриф"><span>Заполнить бриф</span></a>
+                            </div>
+                            <div class="header__drop-v2-contacts-item">
+                                <div class="header__drop-v2-contacts-mail"><a href="mailto:info@everest-media.ru">
+                                        info@everest-media.ru</a></div>
+                                <div class="header__drop-v2-contacts-phone"><a href="tel:+7 495 414 14 44">+7 495 414 14 44</a></div>
+                            </div>
+                        </div>
+                        <div class="header__drop-v2-soc">
+                            <ul class="header__drop-soc">
+                                <li><a href="https://www.facebook.com/uxeverest/" target="__blank" class="fbtrack">Facebook</a></li>
+<li><a href="https://www.instagram.com/everest_ux/" target="__blank" class="igtrack">Instagram</a></li>
+<li><a href="https://vk.com/everestdesign" target="__blank" class="vktrack">Вконтакте</a></li>
+<li><a href="https://www.youtube.com/channel/UCJVylG9RCPD3lX0Hir8esng" target="__blank" class="bhtrack">Youtube</a></li>                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="showreel-video">
+            <div class="showreel-video__close"></div>
+            <div class="showreel-video__wrap"></div>
+        </section>
+
+<section class="container main-fs-v2" data-white>
+  <div class="line">
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+  </div>
+  <div class="main-fs-v2__slider">
+    <div class="main-fs-v2__slider-item">
+      <div class="main-fs-v2__video">
+        <video preload="auto" autoplay="true" loop="true" muted="muted" id="deftvideo">
+            <source src="/local/templates/everest_new/video/deft_video.mov" type="video/mp4">
+        </video>
+      </div>
+      <div class="row-fluid">
+        <a href="/portfolio/deft/"><div class="main-fs-v2__title">DEFT</div>
+        <div class="main-fs-v2__desc">Интернет-магазин элитных дверей</div></a>
+      </div>
+    </div>
+    <div class="main-fs-v2__slider-item">
+      <div class="main-fs-v2__video">
+        <video preload="auto" autoplay="true" loop="true" muted="muted" id="ingosvideo">
+            <source src="/local/templates/everest_new/video/ingos4.mov" type="video/mp4">
+        </video>
+      </div>
+      
+      	<div class="row-fluid">
+      		<a href="/portfolio/ingostrah/"><div class="main-fs-v2__title">Ингосстрах</div>
+        	<div class="main-fs-v2__desc">HR-кабинет. Вместе 1,5 года</div></a>
+      	</div>
+
+    </div>
+    <div class="main-fs-v2__slider-item">
+      <div class="main-fs-v2__video">
+        <video preload="auto" autoplay="true" loop="true" muted="muted" id="megahabvideo">
+            <source src="/local/templates/everest_new/video/megahub_video.mov" type="video/mp4">
+        </video>
+      </div>
+      <div class="row-fluid">
+        <a href="/portfolio/megahab/"><div class="main-fs-v2__title">Мегахаб</div>
+        <div class="main-fs-v2__desc">Сервис оптовых и розничных закупок для HoReCa</div></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--<div class="vimeo-wrapper">-->
+<!--  <iframe src="https://player.vimeo.com/video/352085000?background=1&autoplay=1&loop=1&byline=0&title=0"-->
+<!--          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+<!--</div>-->
+
+<section class="container main-showreel">
+  <div class="line">
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+  </div>
+  <div class="row-fluid">
+    <div class="main-showreel__wrap">
+      <div class="main-showreel__main">
+        <div class="main-showreel__title"><span>Цифровой дизайн</span>, который решает любые бизнес-задачи</div>
+        <div class="main-showreel__text">Лучший юзабилити по версии Tagline Awards</div>
+        <a href="/upload/Everest_design_rules.pdf" class="header__drop-btn btn_presentation" target="__blank" data-name="Презентация нашего подхода"><span>Презентация нашего подхода</span></a>
+      </div>
+      <div class="main-showreel__btn">
+        <a location="/showreel/" href="//player.vimeo.com/video/286412611?autoplay=1&amp;loop=1&amp;byline=0&amp;title=0" id="showreel2">
+          <div class="main-showreel__btn-text">Showreel</div>
+          <img src="/local/templates/everest_new/dist/images/main-page-v2/music-player-play.png" alt="">
+          <div class="main-showreel__btn-text">2019</div>
+          <div class="main-showreel__btn-circle">
+            <div class="main-showreel__btn-circle-item circle_first"></div>
+            <div class="main-showreel__btn-circle-item circle_second"></div>
+            <div class="main-showreel__btn-circle-item circle_third"></div>
+            <!--            <div class="main-showreel__btn-circle-item circle_fourth"></div>-->
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container three-col-ul">
+  <div class="line">
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+  </div>
+  <div class="row-fluid">
+    <div class="three-col-ul__wrap">
+      <div class="three-col-ul__col">
+        <div class="three-col-ul__title">Исследуем</div>
+        <ul class="three-col-ul__list">
+          <li>Глубокое погружение в бизнес-процессы</li>
+          <li>Customer Development</li>
+          <li>Бизнес- и веб-аналитика</li>
+          <li>Customer Journey Map</li>
+        </ul>
+      </div>
+      <div class="three-col-ul__col">
+        <div class="three-col-ul__title">Создаём</div>
+        <ul class="three-col-ul__list">
+          <li>Работа продуктовыми командами</li>
+          <li>Собственная UX-лаборатория</li>
+          <li>12 сильнейших дизайнеров</li>
+          <li>Inhouse разработка</li>
+        </ul>
+      </div>
+      <div class="three-col-ul__col">
+        <div class="three-col-ul__title">Развиваем</div>
+        <ul class="three-col-ul__list">
+          <li>Выделенные группы развития проектов</li>
+          <li>Дизайн-поддержка продуктов и бренда</li>
+          <li>UX-тестирование и аналитика</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container blog-main">
+  <div class="line">
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+  </div>
+  <div class="row-fluid">
+  	    
+<div class="blog-main__list">
+	<div class="grid-sizer"></div>
+	<div class="gutter-sizer"></div>
+
+			
+		<a href="/portfolio/deft/" class="blog-main__item" data-animation-masonry>
+			<div class="blog-main__item-wrap">
+				<div class="blog-main__item-img">
+					<img src="/upload/iblock/a65/a65a8b775968d8d042cb24189834631e.png" alt="Deft">
+				</div>
+				<div class="blog-main__item-content">
+					<div class="blog-main__item-title">Deft</div>
+					<div class="blog-main__item-date">Интернет-магазин элитных дверей</div>
+				</div>
+			</div>
+		</a>
+
+			
+		<a href="/portfolio/ingostrah/" class="blog-main__item" data-animation-masonry>
+			<div class="blog-main__item-wrap">
+				<div class="blog-main__item-img">
+					<img src="/upload/iblock/899/899fdfb479b5d591e84ee90a2a107eac.png" alt="Ингосстрах">
+				</div>
+				<div class="blog-main__item-content">
+					<div class="blog-main__item-title">Ингосстрах</div>
+					<div class="blog-main__item-date">Личный кабинет HR-партнёра</div>
+				</div>
+			</div>
+		</a>
+
+			
+		<a href="/blog/ux_issledovanie_dlya_krupnoy_meditsinskoy_kliniki/" class="blog-main__item" data-animation-masonry>
+			<div class="blog-main__item-wrap">
+				<div class="blog-main__item-img">
+					<img src="/upload/iblock/c32/c321dd2ccf326f3bfadc9c7c459f4b9f.png" alt="АО «Медицина»">
+				</div>
+				<div class="blog-main__item-content">
+					<div class="blog-main__item-title">АО «Медицина»</div>
+					<div class="blog-main__item-date">UX-исследование и тестирование на респондентах</div>
+				</div>
+			</div>
+		</a>
+
+			
+		<a href="/portfolio/royal-farm/" class="blog-main__item" data-animation-masonry>
+			<div class="blog-main__item-wrap">
+				<div class="blog-main__item-img">
+					<img src="/upload/iblock/2b7/2b7d9cccab1174c2194789eefd612260.png" alt="RoyalFarm">
+				</div>
+				<div class="blog-main__item-content">
+					<div class="blog-main__item-title">RoyalFarm</div>
+					<div class="blog-main__item-date">Мобильное приложение по доставке продуктов из магазинов</div>
+				</div>
+			</div>
+		</a>
+
+			
+		<a href="/portfolio/cyberspace/" class="blog-main__item" data-animation-masonry>
+			<div class="blog-main__item-wrap">
+				<div class="blog-main__item-img">
+					<img src="/upload/iblock/974/974ab65e4b2a89fab951242278cdee7c.png" alt="CyberSpace">
+				</div>
+				<div class="blog-main__item-content">
+					<div class="blog-main__item-title">CyberSpace</div>
+					<div class="blog-main__item-date">Космические интерфейсы для крупнейшего кибер-пространства Москвы</div>
+				</div>
+			</div>
+		</a>
+
+			
+		<a href="/portfolio/aviabilety-online/" class="blog-main__item" data-animation-masonry>
+			<div class="blog-main__item-wrap">
+				<div class="blog-main__item-img">
+					<img src="/upload/iblock/dc6/dc602abb7c15eb012f1e0c166abf9027.png" alt="Авиабилеты.Онлайн">
+				</div>
+				<div class="blog-main__item-content">
+					<div class="blog-main__item-title">Авиабилеты.Онлайн</div>
+					<div class="blog-main__item-date">Сервис поиска и бронирования авиабилетов и отелей</div>
+				</div>
+			</div>
+		</a>
+
+	
+</div>
+  </div>
+</section>
+
+<section class="container main-clients">
+  <div class="line">
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+  </div>
+  <div class="row-fluid">
+    <div class="main-clients__title">
+      Наши клиенты
+    </div>
+    <div class="main-slide__brands">
+      <div class="main-slide__brands-item">
+        <img src="/local/templates/everest_new/dist/images/main-page-v2/logos/ingosstrakh-logo.png" alt="">
+      </div>
+      <div class="main-slide__brands-item">
+        <img src="/local/templates/everest_new/dist/images/main-page-v2/logos/sber.png" alt="">
+      </div>
+      <div class="main-slide__brands-item">
+        <img src="/local/templates/everest_new/dist/images/main-page-v2/logos/makfa.png" alt="">
+      </div>
+      <div class="main-slide__brands-item">
+        <img src="/local/templates/everest_new/dist/images/main-page-v2/logos/Pfizer_(2009)_(Print).png" alt="">
+      </div>
+      <div class="main-slide__brands-item">
+        <img src="/local/templates/everest_new/dist/images/main-page-v2/logos/ural.png" alt="">
+      </div>
+      <div class="main-slide__brands-item">
+        <img src="/local/templates/everest_new/dist/images/main-page-v2/logos/bmw.png" alt="">
+      </div>
+    </div>
+    
+<div class="main-clients__slider">
+	
+	<div class="main-clients__slider-item">
+		<div class="main-clients__slider-wrap">
+		  <div class="main-clients__slider-text">
+		    Компания СПАО «Ингосстрах» выражает благодарность студии Everest за продуктивную работу над созданием дизайна личного кабинета HR-партнёра. Профессионализм команды и применение лучших практик позволили разработать удобный интерфейс и получить позитивную обратную связь от пользователей. Отдельная благодарность выражается Владимиру Белоусову за индивидуальный подход.		  </div>
+		  <div class="main-clients__slider-author">
+		  				    <div class="main-clients__slider-avatar">
+			      <img src="/upload/iblock/4fd/4fde688bb8843a139558e0b60bc9533c.png" alt="" />
+			    </div>
+					    <div class="main-clients__slider-person">
+		      <div class="main-clients__slider-name">Екатерина Сучилина</div>
+		      <div class="main-clients__slider-position">руководитель проектов, СПАО «Ингосстрах»</div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	
+	<div class="main-clients__slider-item">
+		<div class="main-clients__slider-wrap">
+		  <div class="main-clients__slider-text">
+		    Высокое качество и профессионализм позволили внедрить новые решения в достаточно сложную систему с большим количеством атрибутов и выборки.<br />
+            Из всех предложенных решений на рынке вы единственные, кто смог разобраться в сложности нашего проекта, а также вложиться в принципы и методологии стандартизации предложенных решений и гайда.		  </div>
+		  <div class="main-clients__slider-author">
+		  				    <div class="main-clients__slider-avatar">
+			      <img src="/upload/iblock/15f/15f8a38a5a18a24d9bd64a12d0dbabf7.png" alt="" />
+			    </div>
+					    <div class="main-clients__slider-person">
+		      <div class="main-clients__slider-name">Дмитрий Тарасов</div>
+		      <div class="main-clients__slider-position">руководитель сервиса Авиабилеты.Онлайн</div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	
+	<div class="main-clients__slider-item">
+		<div class="main-clients__slider-wrap">
+		  <div class="main-clients__slider-text">
+		    Тщательно выбирал подрядчика для новой главной страницы нашего портала. Наш сайт — лидер в стране по поиску работы, поэтому выбор правильного исполнителя был очень важен и способен был повлиять на работу всего бизнеса и проекта.<br />
+            Приятно удивили четкие сроки по каждому этапу работ, в какой-то момент даже думал что все не может идти так быстро.		  </div>
+		  <div class="main-clients__slider-author">
+		  				    <div class="main-clients__slider-avatar">
+			      <img src="/upload/iblock/ae7/ae7386d4408c878239d3956874cb9f1e.png" alt="" />
+			    </div>
+					    <div class="main-clients__slider-person">
+		      <div class="main-clients__slider-name">Андрей Влощинский</div>
+		      <div class="main-clients__slider-position">менеджер проекта Rabota.md</div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	
+	<div class="main-clients__slider-item">
+		<div class="main-clients__slider-wrap">
+		  <div class="main-clients__slider-text">
+		    Специалисты из Еverest в кратчайшие сроки произвели редизайн нашего сайта. На этапе подготовки была проведена серьезная аналитическая работа, включая конкурентный анализ, изучение текущих показателей сайта на основе Яндекс Метрика, а также учтены наши пожелания и бизнес-цели проекта.<br />
+            Мы остались впечатлены экспертизой и опытом работы ребят, а также приятным общением с ними.		  </div>
+		  <div class="main-clients__slider-author">
+		  				    <div class="main-clients__slider-avatar">
+			      <img src="/upload/iblock/1fb/1fbf54e76f8c08e1fb2aab13e6d66f45.png" alt="" />
+			    </div>
+					    <div class="main-clients__slider-person">
+		      <div class="main-clients__slider-name">Николай Сергеев</div>
+		      <div class="main-clients__slider-position">генеральный директор МК-Групп</div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	
+	<div class="main-clients__slider-item">
+		<div class="main-clients__slider-wrap">
+		  <div class="main-clients__slider-text">
+		    Большой опыт и профессионализм в разработке сайтов крупного масштаба, компетентность, быстрое решение вопросов, возникающих в ходе работы, ответственность и доброжелательность персонала (команды проекта) сделали сотрудничество с Everest приятным, плодотворным и эффективным.		  </div>
+		  <div class="main-clients__slider-author">
+		  			    <div class="main-clients__slider-person">
+		      <div class="main-clients__slider-name">Максим Воробьев</div>
+		      <div class="main-clients__slider-position">руководитель сервиса BestChange</div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	</div>
+  </div>
+</section>
+
+<section class="container company-year">
+  <div class="line">
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+  </div>
+  <div class="row-fluid">
+    <div class="company-year__wrap">
+      <div class="company-year__title">Взрывной рост на digital-рынке</div>
+      <div class="company-year__text">Ежегодно растём от 70 до 160%. Взяли награду «Открытие года» на Tagline Awards 2018 и продолжаем удивлять.</div>
+      <a href="/agency/" class="company-year__btn" data-name="Узнать о студии"><span>Узнать о студии</span></a>
+    </div>
+    <div class="company-year__photo">
+    	<picture> 
+			<source srcset='/local/templates/everest_new/dist/images/main-page-v2/image_2.jp2' type='image/jp2'>   
+			<source srcset='/local/templates/everest_new/dist/images/main-page-v2/image_2.webp' type='image/webp'>   
+			<img srcset='/local/templates/everest_new/dist/images/main-page-v2/image%202.png' alt=''> 
+		</picture>
+    </div>
+  </div>
+</section>
+
+<section class="container company-year">
+  <div class="line">
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+  </div>
+  <div class="row-fluid">
+    <div class="company-year__wrap">
+      <div class="company-year__title">
+        Организуем все значимые дизайн-события в стране
+      </div>
+      <div class="company-year__text">
+        Делаем лучшие конференции и мастер-классы по всей России с аудиторией от 100 до 1500 человек.
+      </div>
+    </div>
+  </div>
+  <div class="company-year__video">
+    <iframe src="https://player.vimeo.com/video/352931843?&loop=1&byline=0&title=0"
+            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <div class="company-year__video-poster">
+		<picture> 
+			<source srcset='/local/templates/everest_new/dist/images/main-page-v2/everfest-poster.jp2' type='image/jp2'>   
+			<source srcset='/local/templates/everest_new/dist/images/main-page-v2/everfest-poster.webp' type='image/webp'>   
+			<img srcset='/local/templates/everest_new/dist/images/main-page-v2/everfest-poster.png' alt=''> 
+		</picture>
+      <div class="company-year__video-btn">
+        <img src="/local/templates/everest_new/dist/images/main-page-v2/music-player-play.png" alt="">
+        <div class="company-year__video-btn-circle">
+          <div class="company-year__video-btn-circle-item circle_first"></div>
+          <div class="company-year__video-btn-circle-item circle_second"></div>
+          <div class="company-year__video-btn-circle-item circle_third"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-fluid pt-0">
+    <div class="company-year__wrap">
+      <div class="company-year__text">
+        <span>Everfest</span> — наш собственный ежегодный дизайн-фестиваль. Два дня, четыре потока, 1 500 человек со всей страны.
+        Любимое мероприятие многих светил отечественного дизайна и наша гордость.
+      </div>
+    </div>
+    <div class="company-year__activity">
+      <a href="https://player.vimeo.com/video/351610975?autoplay=1&loop=1&byline=0&title=0" class="company-year__activity-item" id="showreel3">
+        <div class="company-year__activity-poster">
+        	<picture> 
+				<source srcset='/local/templates/everest_new/dist/images/main-page-v2/event-1.jp2' type='image/jp2'>   
+				<source srcset='/local/templates/everest_new/dist/images/main-page-v2/event-1.webp' type='image/webp'>   
+				<img srcset='/local/templates/everest_new/dist/images/main-page-v2/event-1.png' alt=''> 
+			</picture>
+          <div class="company-year__activity-icon">
+            <img src="/local/templates/everest_new/dist/images/main-page-v2/music-player-play.png" alt="">
+          </div>
+        </div>
+        <div class="company-year__activity-info">
+          <div class="company-year__activity-title">Russian Digital Week, Москва</div>
+          <div class="company-year__activity-text">Провели мощнейший день дизайна в рамках крупнейшей отраслевой конференции</div>
+        </div>
+      </a>
+      <a href="https://player.vimeo.com/video/351612073?autoplay=1&loop=1&byline=0&title=0" class="company-year__activity-item" id="showreel4">
+        <div class="company-year__activity-poster">
+        	<picture> 
+				<source srcset='/local/templates/everest_new/dist/images/main-page-v2/event-2.jp2' type='image/jp2'>   
+				<source srcset='/local/templates/everest_new/dist/images/main-page-v2/event-2.webp' type='image/webp'>   
+				<img srcset='/local/templates/everest_new/dist/images/main-page-v2/event-2.png' alt=''> 
+			</picture>
+          <div class="company-year__activity-icon">
+            <img src="/local/templates/everest_new/dist/images/main-page-v2/music-player-play.png" alt="">
+          </div>
+        </div>
+        <div class="company-year__activity-info">
+          <div class="company-year__activity-title">«Стачка», Ульяновск</div>
+          <div class="company-year__activity-text">Организовали большой дизайн-день
+            в мемориале имени Ленина</div>
+        </div>
+      </a>
+      <a href="https://player.vimeo.com/video/351612637?autoplay=1&loop=1&byline=0&title=0" class="company-year__activity-item" id="showreel5">
+        <div class="company-year__activity-poster">
+        	<picture> 
+				<source srcset='/local/templates/everest_new/dist/images/main-page-v2/event-3.jp2' type='image/jp2'>   
+				<source srcset='/local/templates/everest_new/dist/images/main-page-v2/event-3.webp' type='image/webp'>   
+				<img srcset='/local/templates/everest_new/dist/images/main-page-v2/event-3.png' alt=''> 
+			</picture>
+          <div class="company-year__activity-icon">
+            <img src="/local/templates/everest_new/dist/images/main-page-v2/music-player-play.png" alt="">
+          </div>
+        </div>
+        <div class="company-year__activity-info">
+          <div class="company-year__activity-title">РИФ, Воронеж</div>
+          <div class="company-year__activity-text">Собрали душевную секцию со звёздами продуктового дизайна в качестве спикеров</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="container partners">
+  <div class="line">
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+  </div>
+  <div class="row-fluid">
+    <div class="partners__wrap">
+      <div class="partners__main">
+        <div class="partners__title">Everest.Комьюнити — сеть надёжных партнёров</div>
+        <div class="partners__text">Предоставляем сервис одного окна для наших клиентов. Подберём подрядчиков под ваш проект на те digital-услуги, которые сами не оказываем. Наши партнёры — это проверенные команды профессионалов в таких сферах, как:</div>
+        <div class="partners__list">
+          <ul class="three-col-ul__list">
+            <li>сложные интеграции;</li>
+            <li>внедрение CRM и ERP систем;</li>
+            <li>сквозная аналитика;</li>
+            <li>SEO, SMM, SERM;</li>
+            <li>контекстная и таргетированная реклама.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="partners__logo">
+          <div id="lottie"></div>
+                </div>
+    </div>
+  </div>
+</section>
+
+<section class="container company-year">
+  <div class="line">
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+    <div class="line__item"></div>
+  </div>
+  <div class="row-fluid">
+    <div class="company-year__wrap">
+      <div class="company-year__title">
+        Учебный центр Everest
+      </div>
+      <div class="company-year__text">
+        На базе студии уже два года функционирует кузница кадров — академия по подготовке UX/UI-дизайнеров
+      </div>
+    </div>
+  </div>
+  <div class="company-year__video">
+    <iframe src="https://player.vimeo.com/video/351609621?&loop=1&byline=0&title=0"
+            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <div class="company-year__video-poster">
+    	<picture style="object-position: 50% 50%"> 
+			<source srcset='/local/templates/everest_new/dist/images/main-page-v2/syudy_poster.jp2' type='image/jp2'>   
+			<source srcset='/local/templates/everest_new/dist/images/main-page-v2/syudy_poster.webp' type='image/webp'>   
+			<img srcset='/local/templates/everest_new/dist/images/main-page-v2/syudy_poster.png' alt='' style="object-position: 50% 50%"> 
+		</picture>
+      <div class="company-year__video-btn">
+        <img src="/local/templates/everest_new/dist/images/main-page-v2/music-player-play.png" alt="">
+        <div class="company-year__video-btn-circle">
+          <div class="company-year__video-btn-circle-item circle_first"></div>
+          <div class="company-year__video-btn-circle-item circle_second"></div>
+          <div class="company-year__video-btn-circle-item circle_third"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="container contacts-v2" style="min-height: initial;">
+        <div class="line">
+            <div class="line__item"></div>
+            <div class="line__item"></div>
+            <div class="line__item"></div>
+            <div class="line__item"></div>
+            <div class="line__item"></div>
+            <div class="line__item"></div>
+            <div class="line__item"></div>
+            <div class="line__item"></div>
+        </div>
+        <div class="row-fluid" style="min-height: initial;">
+            <div class="contacts-v2__wrap" style="min-height: initial;">
+                <div class="contacts-v2__row">
+                    <div class="title-biggest">Контакты</div>
+                </div>
+                <div class="contacts-v2__row contacts-v2__info">
+                    <div class="contacts-v2__info-col">
+                        <div class="contacts-v2__info-item">
+                            <div class="contacts-v2__info-title">Пишите</div>
+                            <div class="contacts-v2__info-link"><a href="mailto:info@everest-media.ru">info@everest-media.ru</a></div>
+                        </div>
+                        <div class="contacts-v2__info-item">
+                            <div class="contacts-v2__info-title">Звоните</div>
+                            <div class="contacts-v2__info-link"><a href="tel:+7 495 414 14 44">+7 495 414 14 44</a></div>
+                        </div>
+                    </div>
+                    <div class="contacts-v2__info-col">
+                        <div class="contacts-v2__info-item">
+                            <div class="contacts-v2__info-title">Москва</div>
+                            <div class="contacts-v2__info-text">Пресненская набережная, 8с1, башня «Москва», 58 этаж, офис 581</div>
+                        </div>
+                        <div class="contacts-v2__info-item">
+                            <div class="contacts-v2__info-title">Тамбов</div>
+                            <div class="contacts-v2__info-text">Кавалерийская, 7А</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts-v2__row contacts-v2__links">
+                    <div class="contacts-v2__links-item">
+                        <a href="/brief/" class="header__drop-btn" data-name="Заполнить бриф"><span>Заполнить бриф</span></a>
+                    </div>
+                    <div class="contacts-v2__links-item">
+                        <ul class="header__drop-soc">
+                            <li><a href="https://www.facebook.com/uxeverest/">facebook</a></li>
+                            <li><a href="https://www.instagram.com/everest_ux/">instagram</a></li>
+                            <li><a href="https://vk.com/everestdesign">vkontakte</a></li>
+                            <li><a href="https://www.behance.net/everest_ux">behance</a></li>
+                        </ul>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </section>
+
+<section class="container to-page">
+  <a href="/agency/" class="to-page__link">
+    <div class="to-page__text">О студии</div>
+    <div class="to-page__arrow">
+      <div class="to-page__arrow-line"></div>
+      <img class="to-page__arrow-item" src="/local/templates/everest_new/dist/images/keyboard-right-arrow-button.svg" alt="" />
+    </div>
+  </a>
+</section>
+
+  </div> 
+
+  
+</div> 
+
+<div class="gototop">
+    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5.99998 0C5.78492 0 5.56988 0.084033 5.40591 0.251746L0.24617 5.53196C-0.0820567 5.86785 -0.0820567 6.41243 0.24617 6.74819C0.574264 7.08394 1.10632 7.08394 1.43458 6.74819L5.99998 2.07596L10.5654 6.74802C10.8936 7.08377 11.4256 7.08377 11.7537 6.74802C12.0821 6.41227 12.0821 5.86769 11.7537 5.5318L6.59405 0.251583C6.43 0.0838428 6.21496 0 5.99998 0Z" fill="black"/>
+    </svg>
+</div>
+
+
+
+
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/'});</script><script type="text/javascript"  src="/bitrix/cache/js/s1/everest_new/kernel_main/kernel_main_v1.js?1633643534201445"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_db.min.js?153267464910247"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?153267465211334"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js','/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/json/json2.min.js','/bitrix/js/main/core/core_ls.js','/bitrix/js/main/core/core_fx.js','/bitrix/js/main/session.js','/bitrix/js/main/core/core_window.js']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css','/local/templates/everest_new/resources/css/slick.min.css','/local/templates/everest_new/resources/css/jquery-ui.css','/local/templates/everest_new/dist/styles/styles.css','/local/templates/everest_new/custom.css']); </script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/slick.min.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/chosen.jquery.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/jquery.mCustomScrollbar.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/is.min.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/modernizr.min.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/tweenmax-1-18-0.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/scrollmagic-v1-3-0.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/autosize.min.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/resources/js/masonry.min.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/dist/scripts/main.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/custom.js"></script>
+<script type="text/javascript" src="/local/templates/everest_new/libs/lottie.js"></script>
+
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "5c12c490d2452c02e368de23a0cad961"]); _ba.push(["host", "everest.cx"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.3/dist/jquery.fancybox.min.js"></script>
+<script async>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '2503303296667105');
+      fbq('track', 'PageView');
+    </script>
+<script>
+              var animationData = {"v":"5.7.0","fr":59.9400024414063,"ip":0,"op":900.000036657751,"w":1080,"h":1080,"nm":"Untitled-1","ddd":0,"assets":[{"id":"image_0","w":1080,"h":1080,"u":"/local/templates/everest_new/images/","p":"img_0.png","e":0},{"id":"image_1","w":1080,"h":1080,"u":"/local/templates/everest_new/images/","p":"img_1.png","e":0}],"fonts":{"list":[{"fName":"ProximaNova-Regular","fFamily":"Proxima Nova","fStyle":"Regular","ascent":66.69921875}]},"layers":[{"ddd":0,"ind":1,"ty":2,"nm":"UX  UI  Веб-аналитика  frontend  Backend  UX  UI  Веб-аналитика","refId":"image_0","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"t":899.000036617021,"s":[360]}],"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2},"a":{"a":0,"k":[540,540,0],"ix":1},"s":{"a":0,"k":[90,90,100],"ix":6}},"ao":0,"ip":0,"op":951.000038735024,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":5,"nm":"В альянсе с","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[580.854,480.793,0],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"t":{"d":{"k":[{"s":{"s":24,"f":"ProximaNova-Regular","t":"В АЛЬЯНСЕ С","j":0,"tr":120,"lh":28.8,"ls":0,"fc":[0.055,0.055,0.055]},"t":0}]},"p":{},"m":{"g":1,"a":{"a":0,"k":[0,0],"ix":2}},"a":[]},"ip":0,"op":900.000036657751,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":2,"nm":"Invert 1","refId":"image_1","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,520,0],"ix":2},"a":{"a":0,"k":[540,540,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":951.000038735024,"st":0,"bm":0}],"markers":[],"chars":[{"ch":"В","size":24,"style":"Regular","w":62.9,"data":{"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-3.434,3.3],[0,5.4],[2.566,3.2],[3.533,0.534],[-2.267,2.767],[0,4],[3.366,3.134],[5.733,0],[0,0],[0,0],[0,0]],"o":[[3.433,-3.3],[0,-4],[-2.567,-3.2],[3.266,-0.666],[2.266,-2.766],[0,-5.066],[-3.367,-3.133],[0,0],[0,0],[0,0],[6,0]],"v":[[52.35,-4.95],[57.5,-18],[53.65,-28.8],[44.5,-34.4],[52.8,-39.55],[56.2,-49.7],[51.15,-62],[37.5,-66.7],[7.8,-66.7],[7.8,0],[38.2,0]],"c":true},"ix":2},"nm":"В","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[-2.034,-2.033],[0,-3.133],[2,-2],[3.666,0]],"o":[[0,0],[0,0],[3.6,0],[2.033,2.034],[0,3.134],[-2,2],[0,0]],"v":[[16.1,-37.8],[16.1,-59.3],[36.1,-59.3],[44.55,-56.25],[47.6,-48.5],[44.6,-40.8],[36.1,-37.8]],"c":true},"ix":2},"nm":"В","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[-2.167,-2.2],[0,-3.266],[2.2,-2.066],[3.866,0]],"o":[[0,0],[0,0],[3.933,0],[2.166,2.2],[0,3.534],[-2.2,2.067],[0,0]],"v":[[16.1,-7.4],[16.1,-30.4],[36.5,-30.4],[45.65,-27.1],[48.9,-18.9],[45.6,-10.5],[36.5,-7.4]],"c":true},"ix":2},"nm":"В","mn":"ADBE Vector Shape - Group","hd":false}],"nm":"В","np":6,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}]},"fFamily":"Proxima Nova"},{"ch":" ","size":24,"style":"Regular","w":25.8,"data":{},"fFamily":"Proxima Nova"},{"ch":"А","size":24,"style":"Regular","w":65.8,"data":{"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[38,-66.7],[27.7,-66.7],[0.9,0],[10.4,0],[16.3,-14.8],[49.5,-14.8],[55.4,0],[64.9,0]],"c":true},"ix":2},"nm":"А","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0]],"v":[[18.7,-22.2],[32.9,-58.1],[47,-22.2]],"c":true},"ix":2},"nm":"А","mn":"ADBE Vector Shape - Group","hd":false}],"nm":"А","np":5,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}]},"fFamily":"Proxima Nova"},{"ch":"Л","size":24,"style":"Regular","w":71.2,"data":{"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-2.234,0.8],[-2.1,2.3],[-1.434,4.6],[-0.867,7.134],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[1.4,-3.966],[1.8,-1.333],[2.866,0],[0,0]],"o":[[2.233,-0.8],[2.1,-2.3],[1.433,-4.6],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-0.934,7.4],[-1.4,3.967],[-1.8,1.334],[0,0],[3.266,0]],"v":[[11.45,0],[17.95,-4.65],[23.25,-15],[26.7,-32.6],[30,-59.3],[55.1,-59.3],[55.1,0],[63.4,0],[63.4,-66.7],[22.6,-66.7],[18.5,-33.2],[15,-16.15],[10.2,-8.2],[3.2,-6.2],[3.2,1.2]],"c":true},"ix":2},"nm":"Л","mn":"ADBE Vector Shape - Group","hd":false}],"nm":"Л","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}]},"fFamily":"Proxima Nova"},{"ch":"Ь","size":24,"style":"Regular","w":58.7,"data":{"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-3.734,3.867],[0,5.667],[3.766,3.867],[6.4,0],[0,0],[0,0],[0,0]],"o":[[0,0],[6.466,0],[3.733,-3.866],[0,-5.666],[-3.767,-3.866],[0,0],[0,0],[0,0],[0,0]],"v":[[7.8,0],[34.6,0],[49.9,-5.8],[55.5,-20.1],[49.85,-34.4],[34.6,-40.2],[16.1,-40.2],[16.1,-66.7],[7.8,-66.7]],"c":true},"ix":2},"nm":"Ь","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[-2.467,-2.366],[0,-3.733],[2.466,-2.366],[3.933,0],[0,0],[0,0],[0,0]],"o":[[2.466,2.367],[0,3.734],[-2.467,2.367],[0,0],[0,0],[0,0],[3.933,0]],"v":[[43.2,-29.25],[46.9,-20.1],[43.2,-10.95],[33.6,-7.4],[16.1,-7.4],[16.1,-32.8],[33.6,-32.8]],"c":true},"ix":2},"nm":"Ь","mn":"ADBE Vector Shape - Group","hd":false}],"nm":"Ь","np":5,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}]},"fFamily":"Proxima Nova"},{"ch":"Я","size":24,"style":"Regular","w":60.8,"data":{"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[3.9,-3.666],[0,-6.066],[-3.367,-3.4],[-4.867,-0.4],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[-6.2,0],[-3.9,3.667],[0,5.734],[3.366,3.4],[0,0],[0,0],[0,0]],"v":[[31.4,-26.5],[44.8,-26.5],[44.8,0],[53.1,0],[53.1,-66.7],[26.3,-66.7],[11.15,-61.2],[5.3,-46.6],[10.35,-32.9],[22.7,-27.2],[4.7,0],[14.4,0]],"c":true},"ix":2},"nm":"Я","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[2.5,2.4],[0,3.734],[-2.467,2.367],[-3.934,0],[0,0],[0,0],[0,0]],"o":[[-2.5,-2.4],[0,-3.733],[2.466,-2.366],[0,0],[0,0],[0,0],[-3.867,0]],"v":[[17.65,-37.4],[13.9,-46.6],[17.6,-55.75],[27.2,-59.3],[44.8,-59.3],[44.8,-33.8],[27.2,-33.8]],"c":true},"ix":2},"nm":"Я","mn":"ADBE Vector Shape - Group","hd":false}],"nm":"Я","np":5,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}]},"fFamily":"Proxima Nova"},{"ch":"Н","size":24,"style":"Regular","w":71.2,"data":{"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[63.4,-66.7],[55.1,-66.7],[55.1,-38],[16.1,-38],[16.1,-66.7],[7.8,-66.7],[7.8,0],[16.1,0],[16.1,-30.6],[55.1,-30.6],[55.1,0],[63.4,0]],"c":true},"ix":2},"nm":"Н","mn":"ADBE Vector Shape - Group","hd":false}],"nm":"Н","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}]},"fFamily":"Proxima Nova"},{"ch":"С","size":24,"style":"Regular","w":67.6,"data":{"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-6.467,8.8],[0,0],[3.266,-1.766],[3.733,0],[4.9,5.1],[0,7.867],[-4.9,5.1],[-7.334,0],[-3.267,-1.8],[-1.934,-2.866],[0,0],[10.666,0],[6.566,-6.433],[0,-10.133],[-6.567,-6.433],[-9.734,0]],"o":[[0,0],[-1.934,2.934],[-3.267,1.767],[-7.334,0],[-4.9,-5.1],[0,-7.866],[4.9,-5.1],[3.733,0],[3.266,1.8],[0,0],[-6.2,-8.8],[-9.734,0],[-6.567,6.434],[0,10.134],[6.566,6.434],[10.466,0]],"v":[[64.8,-12],[57.7,-15.9],[49.9,-8.85],[39.4,-6.2],[21.05,-13.85],[13.7,-33.3],[21.05,-52.75],[39.4,-60.4],[49.9,-57.7],[57.7,-50.7],[64.7,-54.6],[39.4,-67.8],[14.95,-58.15],[5.1,-33.3],[14.95,-8.45],[39.4,1.2]],"c":true},"ix":2},"nm":"С","mn":"ADBE Vector Shape - Group","hd":false}],"nm":"С","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}]},"fFamily":"Proxima Nova"},{"ch":"Е","size":24,"style":"Regular","w":56.9,"data":{"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[51.5,-7.4],[16.1,-7.4],[16.1,-30.4],[50.8,-30.4],[50.8,-37.8],[16.1,-37.8],[16.1,-59.3],[51.5,-59.3],[51.5,-66.7],[7.8,-66.7],[7.8,0],[51.5,0]],"c":true},"ix":2},"nm":"Е","mn":"ADBE Vector Shape - Group","hd":false}],"nm":"Е","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}]},"fFamily":"Proxima Nova"}]};
+              var params = {
+                  container: document.getElementById('lottie'),
+                  renderer: 'svg',
+                  loop: true,
+                  autoplay: true,
+                  animationData: animationData
+              };
+              var anim;
+              anim = lottie.loadAnimation(params);
+          </script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    var videoEl1 = document.getElementById('deftvideo');
+    videoEl1.addEventListener('canplaythrough', function () {
+      this.play();
+    }, false);
+
+    var videoEl2 = document.getElementById('ingosvideo');
+    videoEl2.addEventListener('canplaythrough', function () {
+      this.play();
+    }, false);
+
+    var videoEl3 = document.getElementById('megahabvideo');
+    videoEl3.addEventListener('canplaythrough', function () {
+      this.play();
+    }, false);
+  });
+</script>
+
+
+</body>
+</html><!--9e7f652d0084063ac40473b6517828b2-->
